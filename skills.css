@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+html{
+  overflow-x: hidden;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  margin: 5px;
+}
+
+.skills__heading {
+  margin-top: 8%;
+  font-family: 'Gill Sans', sans-serif;
+  color: white;
+  padding-top: 5%;
+}
+.grp1-grp2 {
+  display: flex;
+}
+
+#skills{
+background: #333;
+padding-bottom: 3px;
+}
+
+.skill {
+  font-family: "Gill Sans", sans-serif;
+  list-style: none;
+  width: 40%;
+  margin: 60px auto;
+  color: #fff;
+  background: rgb(43, 43, 43);
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar {
+  background-color: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(
+    135deg,
+    rgba(236, 0, 140, 1) 0%,
+    rgba(252, 103, 103, 1) 100%
+  );
+}
+
+.java {
+  width: 90%;
+  animation: java 3s;
+}
+
+.cpp {
+  width: 85%;
+  animation: cpp 3s;
+}
+
+.python {
+  width: 80%;
+  animation: python 3s;
+}
+
+.sql {
+  width: 95%;
+  animation: sql 3s;
+}
+
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes cpp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes sql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .grp1-grp2{
+    flex-direction: column;
+  }
+  .skill{
+width: 90%;
+margin-top: 5%;
+  }
+ 
+}

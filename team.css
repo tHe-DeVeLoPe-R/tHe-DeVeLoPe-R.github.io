@@ -1,0 +1,46 @@
+.team__heading{
+    margin-top: 10%;
+}
+
+.team__{
+    margin-left: 38%;
+    margin-top: 5%;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid black;
+    width: 300px;
+}
+#image{
+    margin-left: 12%;
+}
+#text{
+    margin-left: 35%;
+   
+}
+.team__btn{
+    margin-left: 42%;
+    margin-top: 15%;
+
+}
+
+
+@media only screen and (max-width: 1010px) {
+  .team__{
+      margin-left: 30%;
+  }
+  .team__heading{
+      margin-left: -10%;
+  }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .team__{
+        margin-left: 20%;
+    }
+    .team__heading{
+        margin-left: -15%;
+    }
+    }

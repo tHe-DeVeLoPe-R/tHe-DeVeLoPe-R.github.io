@@ -1,0 +1,112 @@
+.aboutme {
+  width: 90%;
+  margin-left: 3%;
+  /* background-color: rgba(12, 12, 12, 0.4); */
+padding-top: 5%;
+padding-bottom: 5%;
+  margin-top: 3%;
+ 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+}
+.aboutme__heading {
+  margin-top: 10%;
+
+  font-family: Open San, sans-serif;
+}
+.aboutme__wall {
+  width: 2px;
+  height: 265px;
+  background-color: green;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+.aboutme__image {
+margin-left: 8%;
+margin-top: 1%;
+}
+
+.aboutme__image:hover{
+  transform: scale(1.1);
+  transition: .4s;
+}
+
+.aboutme__text {
+  text-align: start;
+  opacity: 0.9;
+  margin-top: 4%;
+  margin-left: 5%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.aboutme__text:hover {
+  color: green;
+ 
+}
+@media only screen and (max-width: 1120px) {
+  .aboutme__wall{
+    display: none;
+  }
+.aboutme{
+  flex-direction: column;
+  padding-bottom: 5%;
+  margin-left: 5%;
+}  
+.aboutme__image{
+  margin-left: 34%;
+  margin-top: 2%;
+}
+.aboutme__text{
+  margin-left: 20%;
+}
+.aboutme__heading{
+ padding: 0;
+ margin-left: -5%; 
+}
+}
+
+@media only screen and (max-width: 817px) {
+  .aboutme__wall{
+    display: none;
+  }
+.aboutme{
+  flex-direction: column;
+  padding-bottom: 5%;
+  margin-left: 5%;
+}  
+.aboutme__image{
+  margin-left: 30%;
+  margin-top: 2%;
+}
+.aboutme__text{
+  margin-left: 15%;
+}
+.aboutme__heading{
+ padding: 0;
+ margin-left: -5%; 
+}
+}
+
+@media only screen and (max-width: 790px) {
+  .aboutme__wall{
+    display: none;
+  }
+.aboutme{
+  flex-direction: column;
+  padding-bottom: 5%;
+  margin-left: 5%;
+}  
+.aboutme__image{
+  margin-left: 20%;
+  margin-top: 2%;
+}
+.aboutme__text{
+  margin-left: 5%;
+  text-align: start;
+}
+.aboutme__heading{
+ padding: 0;
+ margin-left: -5%;
+ margin-top: 20%; 
+}
+}
